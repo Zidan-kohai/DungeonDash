@@ -128,6 +128,7 @@ GameObject:
   - component: {fileID: 1216245361743802983}
   - component: {fileID: 2729648766830493224}
   - component: {fileID: 4877918768448781533}
+  - component: {fileID: 4101849326148015641}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -190,6 +191,7 @@ MonoBehaviour:
   NestedObjects: []
   NetworkedBehaviours:
   - {fileID: 4877918768448781533}
+  - {fileID: 4101849326148015641}
 --- !u!143 &2729648766830493224
 CharacterController:
   m_ObjectHideFlags: 0
@@ -234,3 +236,15 @@ MonoBehaviour:
   braking: 10
   maxSpeed: 2
   rotationSpeed: 15
+--- !u!114 &4101849326148015641
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4230516926003467904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9fe2ead965988141a6bc4ec2f702b1c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
